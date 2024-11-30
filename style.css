@@ -1,0 +1,32 @@
+body {
+    overflow-y: hidden;
+    background-color: cornflowerblue;
+}
+.saha {
+    display:inline-block;
+}
+.myDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    height: 100vh;
+}
+input, label, button {
+    margin-bottom: 30px;
+}
+#myInput {
+    font-size: 25px;
+    border-color: rgb(31, 88, 187);
+    border-radius: 8px;
+}
+#myButton {
+    padding: 15px;
+    border-color: rgb(31, 88, 187);
+    border-radius: 8px;
+    transition: 0.5s;
+}
+#myButton:hover {
+    cursor: pointer;
+    transform:scale(0.5s);
+}
